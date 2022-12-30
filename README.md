@@ -8,11 +8,11 @@
 Your service is defined as a | class | module | `t.router({ ...})` declaration | by adding functions to the `server` object
 End-to-end-type safety (compile time)| ✅ | ✅  | ✅ | <a title="not very convenient" href="https://github.com/brillout/wildcard-api#typescript">❌*</a>
 Automatic arguments validation at runtime  | ✅ | ✅  | ❌ | ❌ |
-Server-Side rendering | <a title="No special support but possible as the server is universal">❌*</a> | ✅ | ✅ | <a title="No special support but possible as the server is universal" href="https://github.com/brillout/wildcard-api#ssr">❌*</a>
+Server-Side rendering | <span title="No special support but possible as the server is universal">❌*</span> | ✅ | ✅ | <a title="No special support but possible as the server is universal" href="https://github.com/brillout/wildcard-api#ssr">❌*</a>
 Request batching | ❌ | ❌  | ✅ | ❌
 Subscriptions / WebSockets | ❌ | ❌ | ✅ | ❌
-REST API spec | <a title="Planned">❌*</a> | ❌ | ✅ | ❌
-Auto. generate OpenAPI/Swagger docs | <a title="Planned">❌*</a> | <a title="Planned">❌*</a> | <a href="https://github.com/jlalmes/trpc-openapi">✅</a> | ❌
+REST API spec | <span title="Planned">❌*</span> | ❌ | ✅ | ❌
+Auto. generate OpenAPI/Swagger docs | <span title="Planned">❌*</span> | <span title="Planned">❌*</span> | <a href="https://github.com/jlalmes/trpc-openapi">✅</a> | ❌
 React helpers | ❌ | ❌  | <a href="https://trpc.io/docs/react-query">✅</a> | ❌
 Typesafe session / context objects | ✅ | ❌ | ❌ | ❌ |
 
@@ -22,8 +22,8 @@ Assuming full features (like automatic arguments validation)
 |                                   | [restfuncs](https://github.com/bogeeee/restfuncs) | [telefunc](https://telefunc.com/) | [tRPC](https://trpc.io/) | [wildcard](https://github.com/brillout/wildcard-api) | 
 | :-------------------------------- | :---: | :-------------: | :--------------: | :--------------: |  
 tsc / ttsc | ✅ | ❌  | ✅ | ✅
-ts-node | <a title="with -C ttypescript">✅*</a> | ❌  | ✅ | ✅
-tsx / esbuild | <a title="You can still use tsx in development where you don't need arguments validation.">❌*</a> | ❌ | ✅ | ✅
+ts-node | <span title="with -C ttypescript">✅*</span> | ❌  | ✅ | ✅
+tsx / esbuild | <span title="You can still use tsx in development where you don't need arguments validation.">❌*</span> | ❌ | ✅ | ✅
 When **server code** is build within...|
 ... Vite/SVELTE KIT | ❌ | ✅ | ✅ | ✅
 ... Next | ❌ | ✅ | ✅ | ✅ 
