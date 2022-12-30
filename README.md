@@ -97,4 +97,4 @@ server.greet = async function(name: string) {
 console.log(await client.greet("Bob"))
 ````
 
-Except on tRPC it's `client.query.greet("Bob")`
+Except on tRPC it's `await client.query.greet("Bob")`
