@@ -12,6 +12,8 @@ Automatic arguments validation at runtime _(implies that you don't have to decla
 Server-Side rendering | <span title="No special support but possible as the server is universal">❌*</span> | ✅ | ✅ | <a title="No special support but possible as the server is universal" href="https://github.com/brillout/wildcard-api#ssr">❌*</a>
 Request batching | ❌ | ❌  | ✅ | ❌
 Subscriptions / WebSockets | ❌ | ❌ | ✅ | ❌
+File uploads / WebSockets | ❌ | ❌ | ✅ | ❌
+[Superjson](https://www.npmjs.com/package/superjson) support: _proper handling of Date/Map/Set/BigInt_ | ❌ | ❌ | <span title="Needs to be cofigured in as a custom transfomer">✅*</span> | ❌ 
 REST API spec | <span title="Planned">❌*</span> | ❌ | ✅ | ❌
 Auto. generate OpenAPI/Swagger docs | <span title="Planned">❌*</span> | <span title="Planned">❌*</span> | <a href="https://github.com/jlalmes/trpc-openapi">✅</a> | ❌
 React helpers | ❌ | ❌  | <a href="https://trpc.io/docs/react-query">✅</a> | ❌
