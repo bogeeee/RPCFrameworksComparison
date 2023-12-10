@@ -1,6 +1,6 @@
 # RPC frameworks comparison
 
-Not included (TODO:  gRPC | Deepkit RPC | Blitz RPC | Remult Backend methods | Phero)
+Not included (TODO:  ts-rest | gRPC | Deepkit RPC | Blitz RPC | Remult Backend methods | Phero)
 
 ## Common
 |                                   | [Restfuncs](https://github.com/bogeeee/restfuncs) | [Telefunc](https://telefunc.com/) | [tRPC](https://trpc.io/) | [wildcard](https://github.com/brillout/wildcard-api)
